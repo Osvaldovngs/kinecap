@@ -1,0 +1,163 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #0066cc;
+    margin-bottom: 20px; /* Añadir margen inferior */
+}
+
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Centrar la lista */
+}
+
+nav ul li {
+    display: inline; /* Alinear horizontalmente los elementos de la lista */
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilos del formulario de login */
+.login-section {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-section h2 {
+    text-align: center;
+    color: #0066cc;
+    margin-bottom: 20px; /* Añadir margen inferior */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #0066cc;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Añadir margen superior */
+}
+
+button[type="submit"]:hover {
+    background-color: #004da8;
+}
+
+.login-section p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login-section p a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.login-section p a:hover {
+    text-decoration: underline;
+}
+
+/* Services Section */
+.services {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f0f8ff;
+}
+
+.services h2 {
+    font-size: 2rem;
+    color: #0066cc;
+    margin-bottom: 40px;
+}
+
+.service-item {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    vertical-align: top;
+}
+
+.service-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 15px;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+    text-align: left;
+}

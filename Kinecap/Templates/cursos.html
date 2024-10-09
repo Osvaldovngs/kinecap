@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos - Clínica OCES</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Cursos de la Clínica OCES</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/about">Sobre Nosotros</a></li>
+                <li><a href="/cursos">Cursos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="courses">
+            <h2>Nuestros Cursos</h2>
+            <div class="course-item">
+                <h3>Curso de Kinesiología</h3>
+                <p>Aprende sobre las técnicas de kinesiología para mejorar la salud y el bienestar de tus pacientes.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/nQHLOyq8iqw" title="Curso de Kinesiología" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="course-item">
+                <h3>Curso de Rehabilitación Física</h3>
+                <p>Explora técnicas avanzadas para la rehabilitación física de pacientes.</p>
+                <!-- Aquí puedes agregar otro video o contenido relacionado -->
+            </div>
+            <div class="course-item">
+                <h3>Curso de Salud y Bienestar</h3>
+                <p>Conoce cómo mantener un estilo de vida saludable y promover el bienestar físico.</p>
+                <!-- Aquí puedes agregar otro video o contenido relacionado -->
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2024 Clínica OCES. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
